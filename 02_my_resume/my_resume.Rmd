@@ -1,0 +1,273 @@
+---
+title: "이광춘"
+author: Lijia Yu
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+# Aside
+
+![Lijia Yu](이광춘-프로필사진.jpg)
+
+## 연락처 {#contact}
+
+-   <i class="fa fa-envelope"></i> [kwangchun.lee.7\@gmail.com](mailto:kwangchun.lee.7@gmail.com){.email}
+-   <i class="fa fa-github"></i> [github.com/statkclee](https://github.com/statkclee)
+-   <i class="fa fa-phone"></i> +1 000-000-0000
+-   전자우편으로 연락주세요.
+
+## 역량 {#skills}
+
+-   AI와 데이터 과학을 활용하여 비즈니스 혹은 사회 문제를 해결하여 가치를 창출하는 전문가.
+
+-   (비)정형 비정형 데이터 공학, 데이터 과학, 기계학습, 딥러닝 
+
+-   (Tidyverse) R, Bash, Python, LaTeX
+
+
+# Main
+
+## 이광춘 {#title}
+
+### RStudio 공인 강사로 Make R Great Again! 활동을 열심히 하고 있습니다.
+
+데이터 과학(Data Science) 시대를 맞이하여 유구한 역사적 전통을 자랑하는 R 언어를 데이터 과학에 최적화 시킨 
+`tidyverse`를 통해 한국어를 말하는 한국인이 더 많은 기여를 할 수 있도록 [Seoul R Meetup](https://www.meetup.com/seoul-r-meetup/) 미트업, [Tidyverse Korea 페이스북 그룹](https://www.facebook.com/groups/tidyverse)을 운영하고 있습니다. 관련하여 궁금하신 점이나 연결을 원하시면 전자우편으로 연락주세요. 
+
+
+## 학력 {data-icon="graduation-cap" data-concise="true"}
+
+### 연세대학교
+
+응용통계학 학사
+
+대한민국 서울
+
+1992 - 1998
+
+### 연세대학교
+
+응용통계학 석사
+
+대한민국 서울
+
+1998 - 2001
+
+논문: Risk Management with Wavelet-based Value-at-Risk and Expected Shortfall
+
+### 카네기 멜론 대학교 (CMU)
+
+컴퓨터 공학 석사
+
+미국 피츠버그
+
+2003 - 2005
+
+### 한국과학기술원 (KAIST)
+
+컴퓨터 공학 박사수료
+
+대한민국 대전
+
+2008 - 2014
+
+## 연구 경력 {data-icon="briefcase"}
+
+### 겸임교수
+
+연세대학교 응용통계학과
+
+대한민국 서울
+
+2019 - 2020
+
+-   데이터 사이언스 입문 [2019 봄학기](https://statkclee.github.io/yonsei/), [2020 가을학기](https://statkclee.github.io/ds-intro-2020/) 
+-   데이터 과학을 위한 데이터 공학 [2019 가을학기](https://statkclee.github.io/yonsei2/)
+
+## 경력 {data-icon="suitcase"}
+
+### 구매 데이터 전문가
+
+현대자동차
+
+대한민국 서울
+
+2004 - 2012
+
+::: {.concise}
+-   자동차 FTA 원산지 관리 체계 수립
+-   FTA 원산지관리 효과 분석
+-   FTA 허브, EDI 표준, 원산지관리 오픈소스 보급 등 시스템 설계, 구축, 운영
+:::
+
+
+### 차량용 반도체 개발 구매 
+
+현대오트론
+
+대한민국 판교
+
+2012 - 2014
+
+::: {.concise}
+-   차량용 반도체 공급사 정예화 
+-   차량용 반도체 통합구매 기획, 추진, 운영
+-   차량용 반도체 개발
+:::
+
+
+### 데이터 과학자
+
+웹젠
+
+대한민국 판교
+
+2016 - 2019
+
+::: {.concise}
+-   MMORPG 게임 어뷰징 탐지 예측모형 개발
+-   SNS 대쉬보드 개발
+-   데이터 과학자 육성
+:::
+
+
+### 인공지능 개발자
+
+삼정 KPMG
+
+대한민국 서울
+
+2019 - 현재
+
+::: {.concise}
+-   Lighthouse 설립
+-   AI 전문가 채용 및 육성
+-   AI 제품 개발
+:::
+
+
+## 강의 교육 {data-icon="chalkboard-teacher"}
+
+### 소프트웨어 카펜트리
+
+[Software Carpentry 워크샵](http://statkclee.github.io/swcarpentry-version-5-3-new/)
+
+대한민국 서울, 대전, 판교, 춘천
+
+2015 - 2018
+
+### R 미트업
+
+[데이터 과학, R 미트업 운영](https://tidyverse-korea.github.io/seoul-R/)
+
+대한민국 서울
+
+2018 - 현재
+
+## 책과 논문 {data-icon="file"}
+
+### 정보교육을 위한 파이썬 : 정보탐색을 통한 데이터 과학자로서의 여정
+
+CreateSpace Independent Publishing Platform
+
+N/A
+
+2015
+
+저자: Charles Russell Severance, 번역: 이광춘
+
+### 사람과 인공지능의 일자리 경쟁 요인과 협업 방안
+
+Digital Management Review Vol.6 No.2 pp.39-50
+
+N/A
+
+2020
+
+**Lee Kwang-Chun**, Young Woo Ju
+
+### A Market-Driven Product Line Scoping
+
+Software Engineering Research, Management and Applications 2011. Springer Berlin Heidelberg, pp 27-46
+
+N/A
+
+2012
+
+**Lee, Kwangchun**, and Dan Hyung Lee
+
+### Leveraging Software Product Lines Engineering (SPLE)   with Software-as-a-Service (SaaS) in Automotive Domain
+
+Hyundai-Kia  Motors  Conference
+
+N/A
+
+2010
+
+**Lee, Kwangchun**, and Dan Hyung Lee
+
+### Embedding Quality Attributes into Software Product Lines Scoping
+
+한국 소프트웨어공학 학술대회 (KCSE)
+
+N/A
+
+2009
+
+**KwangChun Lee** and JiHyun Lee
+
+### Commonality and Variability Visualization Using Multidimensional Scaling
+
+SPLC 2, page 343-349. Lero Int. Science Centre, University  of  Limerick, Ireland
+
+N/A
+
+2007
+
+**KwangChun Lee** and Dan Hyung Lee
+
+### A priori ordering protocols to support consensus-building in multiple stakeholder contexts
+
+Information Sciences, 177(15), 3129-3150.
+
+N/A
+
+2007
+
+Lee, D. H., **Lee, K. C.**, Kang, S., & Baik, J.
+
+### An online help framework for web applications
+
+Proceedings of the 25th annual ACM international conference on Design of communication. ACM
+
+N/A
+
+2007
+
+**KwangChun Lee** and Dan Hyung Lee
+
+### Quantitative Measurement of Quality Attribute Preferences Using Conjoint Analysis
+
+Interactive  Systems.  Design,  Specification, and Verification, Lecture Notes in Computer Science Volume 3941: pp 213-224.
+
+N/A
+
+2006
+
+**Kwang Chun Lee**, Ho-Jin Choi, Dan Hyung Lee, Sungwon Kang
+
+### Risk Management with Wavelet-based Value-at-Risk and Expected Shortfall
+
+KDMS
+
+N/A
+
+2001
+
+**Kwangchun Lee**
+
