@@ -1,0 +1,245 @@
+---
+title: "이광춘"
+author: 이광춘
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+# uncomment this line to produce HTML and PDF in RStudio:
+# knit: pagedown::chrome_print
+editor_options: 
+  chunk_output_type: console
+output_dir: "docs"  
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  results='asis', 
+  echo = FALSE
+)
+library(tidyverse)
+library(glue)
+
+# ======================================================================
+# These variables determine how the the data is loaded and how the exports are
+# done.
+# Is data stored in google sheets? If no data will be gather from the csvs/
+# folder in project
+using_googlesheets <- TRUE
+# Just the copied URL from the sheet
+positions_sheet_loc <- "https://docs.google.com/spreadsheets/d/134kVmtYTqXvIv9UaxrjVnFodENOdL6MfF1UchnJ1SdY"
+# Is this sheet available for anyone to read? If you're using a private sheet
+# set this to false and go to gather_data.R and run the data loading manually
+# once to cache authentication
+sheet_is_publicly_readable <- TRUE
+# Is the goal of this knit to build a document that is exported to PDF? If so
+# set this to true to have links turned into footnotes at the end of the
+# document
+PDF_EXPORT <- TRUE
+
+# A global (gasp) variable that holds all the links that were inserted for
+# placement at the end
+links <- c()
+# ======================================================================
+# Now we source two external scripts. One contains functions for building the
+# text output and the other loads up our data from either googlesheets or csvs
+# Functions for building sections from CSV data
+
+parse_filepath <- glue::glue("{here::here()}/04_googlesheet_resume/R/parsing_functions.R")
+import_filepath <- glue::glue("{here::here()}/04_googlesheet_resume/R/import_data.R")
+
+source(parse_filepath) 
+source(import_filepath)
+# Now we just need to filter down the position data to include less verbose
+# categories and only the entries we have designated for the resume
+position_data <- position_data %>% 
+  filter(in_resume) %>% 
+  mutate(
+    # Build some custom sections by collapsing others
+    section = case_when(
+      section %in% c('research_positions', 'industry_positions') ~ 'positions', 
+      section %in% c('data_science_writings', 'by_me_press') ~ 'writings',
+      TRUE ~ section
+    )
+  ) 
+```
+
+# Aside
+=======================================================================================
+
+![이광춘](fig/이광춘-프로필사진.jpg)
+
+## 연락처 {#contact}
+
+---------------------------------------------------------------------------------------
+
+```{r contact-info}
+contact_info %>% 
+  glue_data("- <i class='fa fa-{icon}'></i> {contact}")
+```
+
+-   전자우편으로 연락주세요.
+
+## 역량 {#skills}
+
+---------------------------------------------------------------------------------------
+
+
+- AI와 데이터 과학을 활용하여 비즈니스 혹은 사회 문제를 해결하여 가치를 창출하는 전문가.
+
+- (비)정형 비정형 데이터 공학, 데이터 과학, 기계학습, 딥러닝 
+
+- (Tidyverse) R, Bash, Python, LaTeX
+
+
+
+# Main
+
+## 이광춘 {#title}
+
+### RStudio 공인 강사로 Make R Great Again! 활동을 열심히 하고 있습니다.
+
+데이터 과학(Data Science) 시대를 맞이하여 유구한 역사적 전통을 자랑하는 R 언어를 데이터 과학에 최적화 시킨 
+`tidyverse`를 통해 한국어를 말하는 한국인이 더 많은 기여를 할 수 있도록 [Seoul R Meetup](https://www.meetup.com/seoul-r-meetup/) 미트업, [Tidyverse Korea 페이스북 그룹](https://www.facebook.com/groups/tidyverse)을 운영하고 있습니다. 관련하여 궁금하신 점이나 연결을 원하시면 전자우편으로 연락주세요. 
+
+
+## 학력 {data-icon="graduation-cap" data-concise="true"}
+
+```{r education}
+position_data %>% print_section('education')
+```
+
+
+## 연구 경력 {data-icon="briefcase"}
+
+```{r research-and-development}
+position_data %>% print_section('research')
+```
+
+## 경력 {data-icon="suitcase"}
+
+```{r professional-experiences-industry}
+position_data %>% print_section('industry')
+```
+
+## 강의 교육 {data-icon="chalkboard-teacher"}
+
+### 소프트웨어 카펜트리
+
+[Software Carpentry 워크샵](http://statkclee.github.io/swcarpentry-version-5-3-new/)
+
+대한민국 서울, 대전, 판교, 춘천
+
+2015 - 2018
+
+### R 미트업
+
+[데이터 과학, R 미트업 운영](https://tidyverse-korea.github.io/seoul-R/)
+
+대한민국 서울
+
+2018 - 현재
+
+## 책과 논문 {data-icon="file"}
+
+### 정보교육을 위한 파이썬 : 정보탐색을 통한 데이터 과학자로서의 여정
+
+CreateSpace Independent Publishing Platform
+
+N/A
+
+2015
+
+저자: Charles Russell Severance, 번역: 이광춘
+
+### 사람과 인공지능의 일자리 경쟁 요인과 협업 방안
+
+Digital Management Review Vol.6 No.2 pp.39-50
+
+N/A
+
+2020
+
+**Lee Kwang-Chun**, Young Woo Ju
+
+### A Market-Driven Product Line Scoping
+
+Software Engineering Research, Management and Applications 2011. Springer Berlin Heidelberg, pp 27-46
+
+N/A
+
+2012
+
+**Lee, Kwangchun**, and Dan Hyung Lee
+
+### Leveraging Software Product Lines Engineering (SPLE)   with Software-as-a-Service (SaaS) in Automotive Domain
+
+Hyundai-Kia  Motors  Conference
+
+N/A
+
+2010
+
+**Lee, Kwangchun**, and Dan Hyung Lee
+
+### Embedding Quality Attributes into Software Product Lines Scoping
+
+한국 소프트웨어공학 학술대회 (KCSE)
+
+N/A
+
+2009
+
+**KwangChun Lee** and JiHyun Lee
+
+### Commonality and Variability Visualization Using Multidimensional Scaling
+
+SPLC 2, page 343-349. Lero Int. Science Centre, University  of  Limerick, Ireland
+
+N/A
+
+2007
+
+**KwangChun Lee** and Dan Hyung Lee
+
+### A priori ordering protocols to support consensus-building in multiple stakeholder contexts
+
+Information Sciences, 177(15), 3129-3150.
+
+N/A
+
+2007
+
+Lee, D. H., **Lee, K. C.**, Kang, S., & Baik, J.
+
+### An online help framework for web applications
+
+Proceedings of the 25th annual ACM international conference on Design of communication. ACM
+
+N/A
+
+2007
+
+**KwangChun Lee** and Dan Hyung Lee
+
+### Quantitative Measurement of Quality Attribute Preferences Using Conjoint Analysis
+
+Interactive  Systems.  Design,  Specification, and Verification, Lecture Notes in Computer Science Volume 3941: pp 213-224.
+
+N/A
+
+2006
+
+**Kwang Chun Lee**, Ho-Jin Choi, Dan Hyung Lee, Sungwon Kang
+
+### Risk Management with Wavelet-based Value-at-Risk and Expected Shortfall
+
+KDMS
+
+N/A
+
+2001
+
+**Kwangchun Lee**
+
