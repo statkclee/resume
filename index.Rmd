@@ -4,6 +4,10 @@ author: 이광춘
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
+    css: 
+      - css/custom_resume.css
+      - css/typography.css
+      - resume
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
 # uncomment this line to produce HTML and PDF in RStudio:
@@ -235,7 +239,7 @@ N/A
 
 ### Risk Management with Wavelet-based Value-at-Risk and Expected Shortfall
 
-KDMS
+Korea Data Mining Society (KDMS)
 
 N/A
 
