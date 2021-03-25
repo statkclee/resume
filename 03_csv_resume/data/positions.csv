@@ -1,0 +1,10 @@
+section,in_resume,title,institution,loc,start,end,description_1,description_2,description_3,description_4
+education,TRUE,응용통계 학사,연세대학교,대한민국 서울,1992,1998,,,,
+education,TRUE,응용통계 석사,연세대학교,대한민국 서울,1998,2001,논문: Risk Management with Wavelet-based Value-at-Risk and Expected Shortfall,,,
+education,TRUE,컴퓨터 공학 석사,카네기 멜론 대학교 (CMU),미국 피츠버그,2003,2005,,,,
+education,TRUE,컴퓨터 공학 박사수료,한국과학기술원 (KAIST),대한민국 대전,2008,2014,,,,
+research,TRUE,겸임교수,연세대학교 상경대학 응용통계학과,대한민국 서울,2019,2020,"데이터 사이언스 입문 [2019 봄학기](https://statkclee.github.io/yonsei/), [2020 가을학기](https://statkclee.github.io/ds-intro-2020/)",데이터 과학을 위한 데이터 공학 [2019 가을학기](https://statkclee.github.io/yonsei2/),,
+industry,TRUE,구매 통계 전문가,현대자동차,대한민국 서울,2004,2012,자동차 FTA 원산지 관리 체계 수립,FTA 원산지관리 효과 분석,"FTA 허브, EDI 표준, 원산지관리 오픈소스 보급 등 시스템 설계, 구축, 운영",
+industry,TRUE,차량용 반도체 개발 구매,현대오트론,대한민국 판교,2012,2014,차량용 반도체 공급사 정예화 ,"차량용 반도체 통합구매 기획, 추진, 운영",차량용 반도체 개발,
+industry,TRUE,데이터 과학자,웹젠,대한민국 판교,2016,2019,MMORPG 게임 어뷰징 탐지 예측모형 개발,SNS 대쉬보드 개발,데이터 과학자 육성,
+industry,TRUE,인공지능 AI 개발자,삼정 KPMG,대한민국 서울,2019,현재,Lighthouse 설립,AI 전문가 채용 및 육성,AI 제품 개발,
