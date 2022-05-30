@@ -158,49 +158,66 @@ position_data %>% print_section('industry')
 
 ### [데이터 과학 프로그래밍](https://r2bit.com/book_programming/)
 
-N/A
-
 한국 R 사용자회
 
+N/A
+
 2022.05.
+
+저자: 이광춘 외
+
 
 ### [데이터 시각화](https://r2bit.com/book_viz/)
 
-N/A
-
 한국 R 사용자회
 
+N/A
+
 2022.05.
+
+저자: 이광춘 외
+
 
 ### [데이터 과학을 지탱하는 기본기](https://r2bit.com/book_analytics/)
 
-N/A
-
 한국 R 사용자회
 
+N/A
+
 2022.05.
+
+저자: 이광춘 외
+
 
 ### [설치형 오픈 통계 패키지 - `Rcmdr`](https://r2bit.com/Rcmdr/)
 
-N/A
-
 한국 R 사용자회
 
-2022.04.
+N/A
+
+2022.05.
+
+저자: 이광춘 외
 
 ### [데이터 과학 언플러그드](https://r2bit.com/book_unplugged/)
 
-N/A
-
 한국 R 사용자회
 
+N/A
+
 2022.05.
+
+저자: 이광춘 외
 
 ### 문서 콘텐츠 제작 실무 (제작 예정)
 
 한국 R 사용자회
 
+N/A
+
 2022.07.
+
+저자: 이광춘 외
 
 ### 정보교육을 위한 파이썬 : 정보탐색을 통한 데이터 과학자로서의 여정
 
