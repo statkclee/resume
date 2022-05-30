@@ -4,11 +4,11 @@ author: 이광춘
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
     css: 
       - css/custom_resume.css
       - css/typography.css
       - resume
-    # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
 # uncomment this line to produce HTML and PDF in RStudio:
 # knit: pagedown::chrome_print
@@ -24,6 +24,7 @@ knitr::opts_chunk$set(
 )
 library(tidyverse)
 library(glue)
+library(googlesheets4)
 
 # ======================================================================
 # These variables determine how the the data is loaded and how the exports are
@@ -102,11 +103,10 @@ contact_info %>%
 
 ## 이광춘 {#title}
 
-### RStudio 공인 강사로 Make R Great Again! 활동을 열심히 하고 있습니다.
+### 데이터 사이언스 교육에 진심인 국내 첫 RStudio 공인 강사입니다. 
 
-데이터 과학(Data Science) 시대를 맞이하여 유구한 역사적 전통을 자랑하는 R 언어를 데이터 과학에 최적화 시킨 
-`tidyverse`를 통해 한국어를 말하는 한국인이 더 많은 기여를 할 수 있도록 [Seoul R Meetup](https://www.meetup.com/seoul-r-meetup/) 미트업, [Tidyverse Korea 페이스북 그룹](https://www.facebook.com/groups/tidyverse)을 운영하고 있습니다. 관련하여 궁금하신 점이나 연결을 원하시면 전자우편으로 연락주세요. 
-
+국내 1세대 [데이터 과학자](https://www.hankookilbo.com/News/Read/201701061377093602)로 데이터 사이언스 외길을 걸어왔습니다. 국내외 다양한 데이터 과학 경험(RStudio, Software Carpentry, AsiaR)과 서울 R 미트업과 한국 R 컨퍼런스, 그리고 연세대 데이터 과학 강의 경험과 
+현대차, 웹젠, 삼정 KPMG 산업체 경험과 네트워크는 큰 자산이자 원동력입니다.
 
 ## 학력 {data-icon="graduation-cap" data-concise="true"}
 
@@ -145,7 +145,62 @@ position_data %>% print_section('industry')
 
 2018 - 현재
 
+### 한국 R 컨퍼런스
+
+[한국 R 컨퍼런스 2021](https://use-r.kr/)
+
+대한민국 서울
+
+2021 - 현재
+
+
 ## 책과 논문 {data-icon="file"}
+
+### [데이터 과학 프로그래밍](https://r2bit.com/book_programming/)
+
+N/A
+
+한국 R 사용자회
+
+2022.05.
+
+### [데이터 시각화](https://r2bit.com/book_viz/)
+
+N/A
+
+한국 R 사용자회
+
+2022.05.
+
+### [데이터 과학을 지탱하는 기본기](https://r2bit.com/book_analytics/)
+
+N/A
+
+한국 R 사용자회
+
+2022.05.
+
+### [설치형 오픈 통계 패키지 - `Rcmdr`](https://r2bit.com/Rcmdr/)
+
+N/A
+
+한국 R 사용자회
+
+2022.04.
+
+### [데이터 과학 언플러그드](https://r2bit.com/book_unplugged/)
+
+N/A
+
+한국 R 사용자회
+
+2022.05.
+
+### 문서 콘텐츠 제작 실무 (제작 예정)
+
+한국 R 사용자회
+
+2022.07.
 
 ### 정보교육을 위한 파이썬 : 정보탐색을 통한 데이터 과학자로서의 여정
 
