@@ -14,7 +14,7 @@ output:
 knit: pagedown::chrome_print
 editor_options: 
   chunk_output_type: console
-# output_dir: "docs"  
+output_dir: "docs"
 ---
 
 ```{r, include=FALSE}
@@ -33,7 +33,7 @@ library(googlesheets4)
 # folder in project
 using_googlesheets <- TRUE
 # Just the copied URL from the sheet
-positions_sheet_loc <- "https://docs.google.com/spreadsheets/d/134kVmtYTqXvIv9UaxrjVnFodENOdL6MfF1UchnJ1SdY"
+positions_sheet_loc <- "https://docs.google.com/spreadsheets/d/1vC_OJVIkz5sgItovRL3AFDgvTXKBZdAAq6WNtSLlNz0"
 # Is this sheet available for anyone to read? If you're using a private sheet
 # set this to false and go to gather_data.R and run the data loading manually
 # once to cache authentication
@@ -73,7 +73,7 @@ position_data <- position_data %>%
 # Aside
 =======================================================================================
 
-![이광춘](fig/profile.jpg)
+![](fig/profile.jpg)
 
 ## 연락처 {#contact}
 
@@ -91,34 +91,27 @@ contact_info %>%
 ---------------------------------------------------------------------------------------
 
 
-- AI와 데이터 과학을 활용하여 비즈니스 혹은 사회 문제를 해결하여 가치를 창출하는 전문가.
+- 인공지능과 데이터 과학을 사용해서 비즈니스 혹은 사회문제를 해결해서 가치를 창출하는 전문가.
 
-- (비)정형 비정형 데이터 공학, 데이터 과학, 기계학습, 딥러닝 
+- 데이터 과학, 데이터 공학, 기계학습, 딥러닝
 
-- (Tidyverse) R, Bash, Python, LaTeX
-
+- (Tidyverse) R, SQL, Bash, Python, LaTeX
 
 
 # Main
 
-## 이광춘 {#title}
+## 이광춘  {#title}
 
-### 인공지능 기본기에 충실한 데이터 과학자
+### 글로벌 공인 강사 (Software Carpentry/RStudio)
 
-국내 1세대 [데이터 과학자](https://www.hankookilbo.com/News/Read/201701061377093602)로 데이터 사이언스 외길을 걸어왔습니다. 국내외 다양한 데이터 과학 경험(RStudio, Software Carpentry, AsiaR)과 서울 R 미트업과 한국 R 컨퍼런스, 그리고 연세대 데이터 과학 강의 경험과 
-현대차, 웹젠, 삼정 KPMG 산업체 경험과 네트워크는 큰 자산이자 원동력입니다.
+국내 1세대 [데이터 과학자](https://www.hankookilbo.com/News/Read/201701061377093602)로 데이터 사이언스 외길을 걸어왔습니다. 국내외 다양한 데이터 과학 경험(RStudio, Software Carpentry, AsiaR)과 서울 R 미트업과 한국 R 컨퍼런스, 그리고 연세대 데이터 과학 강의 경험과 현대차, 웹젠, 삼정 KPMG 산업체 경험과 네트워크는 큰 자산이자 원동력입니다.
+
+다양한 경험과 글로벌 커뮤니케이션을 통해 빅데이터, 확률/통계, 데이터 과학, 기계학습, 딥러닝 바탕위에 추진되는 디지털 전환도 결국 **디지털 글쓰기** 로 귀결되기 때문에 불평등 해소와 공정한 기회확대를 위해 교육에 전력하고 있습니다.
 
 ## 학력 {data-icon="graduation-cap" data-concise="true"}
 
 ```{r education}
 position_data %>% print_section('education')
-```
-
-
-## 연구 경력 {data-icon="briefcase"}
-
-```{r research-and-development}
-position_data %>% print_section('research')
 ```
 
 ## 경력 {data-icon="suitcase"}
@@ -127,7 +120,13 @@ position_data %>% print_section('research')
 position_data %>% print_section('industry')
 ```
 
-## 강의 교육 {data-icon="chalkboard-teacher"}
+## 강의 경력 {data-icon="briefcase"}
+
+```{r research-and-development}
+position_data %>% print_section('research')
+```
+
+## 워크샵과 컨퍼런스 {data-icon="chalkboard-teacher"}
 
 ### 소프트웨어 카펜트리
 
@@ -135,7 +134,7 @@ position_data %>% print_section('industry')
 
 대한민국 서울, 대전, 판교, 춘천
 
-2015 - 2018
+2015 - 현재
 
 ### R 미트업
 
@@ -153,8 +152,33 @@ position_data %>% print_section('industry')
 
 2021 - 현재
 
+### 한국 R 컨퍼런스
+
+[한국 R 컨퍼런스 2021](https://use-r.kr/)
+
+대한민국 서울
+
+2021 - 현재
+
+## 특강 {data-icon="briefcase"}
+
+```{r lecture}
+position_data %>% print_section('lecture')
+```
+
 
 ## 책과 논문 {data-icon="file"}
+
+### [R 텍스트 마이닝](https://r2bit.com/book_tm/)
+
+한국 R 사용자회
+
+N/A
+
+2022.08.
+
+저자: 이광춘 외
+
 
 ### [데이터 과학 프로그래밍](https://r2bit.com/book_programming/)
 
@@ -166,7 +190,6 @@ N/A
 
 저자: 이광춘 외
 
-
 ### [데이터 시각화](https://r2bit.com/book_viz/)
 
 한국 R 사용자회
@@ -177,7 +200,6 @@ N/A
 
 저자: 이광춘 외
 
-
 ### [데이터 과학을 지탱하는 기본기](https://r2bit.com/book_analytics/)
 
 한국 R 사용자회
@@ -187,7 +209,6 @@ N/A
 2022.05.
 
 저자: 이광춘 외
-
 
 ### [설치형 오픈 통계 패키지 - `Rcmdr`](https://r2bit.com/Rcmdr/)
 
@@ -209,7 +230,7 @@ N/A
 
 저자: 이광춘 외
 
-### 문서 콘텐츠 제작 실무 (제작 예정)
+### 디지털 글쓰기 (집필중)
 
 한국 R 사용자회
 
@@ -241,7 +262,8 @@ N/A
 
 ### A Market-Driven Product Line Scoping
 
-Software Engineering Research, Management and Applications 2011. Springer Berlin Heidelberg, pp 27-46
+Software Engineering Research, Management and Applications 2011. Springer 
+Berlin Heidelberg, pp 27-46
 
 N/A
 
@@ -318,4 +340,3 @@ N/A
 2001
 
 **Kwangchun Lee**
-
