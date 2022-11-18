@@ -18,7 +18,7 @@ knit: pagedown::chrome_print
 
 -   <i class="fa fa-envelope"></i> [kwangchun.lee.7\@gmail.com](mailto:kwangchun.lee.7@gmail.com){.email}
 -   <i class="fa fa-github"></i> [github.com/statkclee](https://github.com/statkclee)
--   <i class="fa fa-phone"></i> +82 010-9669-6407
+-   <i class="fa fa-phone"></i> +82 010-XXXX-XXXX
 
 
 ## Skills {#skills}
