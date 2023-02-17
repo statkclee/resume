@@ -106,7 +106,7 @@ contact_info %>%
 ### 인공지능 기본기에 충실한 데이터 과학자
 
 국내 1세대 [데이터 과학자](https://www.hankookilbo.com/News/Read/201701061377093602)로 데이터 사이언스 외길을 걸어왔습니다. 국내외 다양한 데이터 과학 경험(RStudio, Software Carpentry, AsiaR)과 서울 R 미트업과 한국 R 컨퍼런스, 그리고 연세대 데이터 과학 강의 경험과 
-현대차, 웹젠, 삼정 KPMG 산업체 경험과 네트워크는 큰 자산이자 원동력입니다.
+현대차, GS 칼텍스, 웹젠, 삼정 KPMG, TCS 산업체 경험과 네트워크는 큰 자산이자 원동력입니다. 
 
 ## 학력 {data-icon="graduation-cap" data-concise="true"}
 
