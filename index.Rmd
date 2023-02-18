@@ -91,22 +91,20 @@ contact_info %>%
 ---------------------------------------------------------------------------------------
 
 
-- AI와 데이터 과학을 활용하여 비즈니스 혹은 사회 문제를 해결하여 가치를 창출하는 전문가.
+- 데이터 문해력과 디지털 글쓰기를 통해 디지털 불평등 해소와 교육 격차 해소 전문가.
 
 - (비)정형 비정형 데이터 공학, 데이터 과학, 기계학습, 딥러닝 
 
-- (Tidyverse) R, Bash, Python, LaTeX
-
+- (Tidyverse) R, Quarto, Bash, Python, LaTeX
 
 
 # Main
 
 ## 이광춘 {#title}
 
-### 인공지능 기본기에 충실한 데이터 과학자
+### 데이터 문해력과 디지털 글쓰기 AI 교육전문가
 
-국내 1세대 [데이터 과학자](https://www.hankookilbo.com/News/Read/201701061377093602)로 데이터 사이언스 외길을 걸어왔습니다. 국내외 다양한 데이터 과학 경험(RStudio, Software Carpentry, AsiaR)과 서울 R 미트업과 한국 R 컨퍼런스, 그리고 연세대 데이터 과학 강의 경험과 
-현대차, GS 칼텍스, 웹젠, 삼정 KPMG, TCS 산업체 경험과 네트워크는 큰 자산이자 원동력입니다. 
+국내 1세대 [데이터 과학자](https://www.hankookilbo.com/News/Read/201701061377093602)로 데이터 사이언스 외길을 걸어왔습니다. 비영리법인 한국 R 사용자회 소속으로 2017년부터 매월 열린 서울 R 미트업을 진행하며 디지털 불평등 해소와 시민 데이터 과학자 육성을 위해서 헌신했습니다. 특히, **글로벌 데이터 사이언스 강사 자격증(RStudio, Software Carpentry)** 취득과 연세대, 성균관대, 한밭대, 한림대 등 학계강의는 물론 GS 칼텍스 전체 **Digital Academy**를 설계하고 운영중에 있으며 **경기도 AI빅데이터 위원회 자문위원** 자격으로 경기도 의원을 대상 chatGPT 특강('23년 3월)으로 교육을 통해 디지털 전환을 실천해 나가고 있습니다.
 
 ## 학력 {data-icon="graduation-cap" data-concise="true"}
 
@@ -129,21 +127,30 @@ position_data %>% print_section('industry')
 
 ## 강의 교육 {data-icon="chalkboard-teacher"}
 
-### 소프트웨어 카펜트리
+### 경기도 의원 맞춤형 교육
 
-[Software Carpentry 워크샵](http://statkclee.github.io/swcarpentry-version-5-3-new/)
+[chatGPT 이해와 사회·경제·교육적 함의](https://r2bit.com/chatGPT/)
 
-대한민국 서울, 대전, 판교, 춘천
+대한민국 경기도 수원
 
-2015 - 2018
+23년3월 (예정)
 
-### R 미트업
+
+### GS 칼텍스
+
+[데이터 사이언스 프로젝트 교육](https://r2bit.com/curriculum/)
+
+대한민국 여수
+
+2022 - 현재
+
+### 서울 R 미트업
 
 [데이터 과학, R 미트업 운영](https://tidyverse-korea.github.io/seoul-R/)
 
 대한민국 서울
 
-2018 - 현재
+2017 - 현재
 
 ### 한국 R 컨퍼런스
 
@@ -153,8 +160,44 @@ position_data %>% print_section('industry')
 
 2021 - 현재
 
+### 데이터 문해력과 디지털 글쓰기 컨퍼런스
+
+[데이터 문해력과 디지털 글쓰기 컨퍼런스 2022](https://r2bit.com/sen/)
+
+대한민국 서울 성균관대
+
+2022
+
+### 소프트웨어 카펜트리
+
+[Software Carpentry 워크샵](http://statkclee.github.io/swcarpentry-version-5-3-new/)
+
+대한민국 서울, 대전, 판교, 춘천
+
+2015 - 2022
+
 
 ## 책과 논문 {data-icon="file"}
+
+### (가칭) `chatGPT` 데이터 사이언스
+
+한국 R 사용자회
+
+N/A
+
+2023.05.
+
+저자: 이광춘 외
+
+### [데이터 문해력과 디지털 글쓰기](https://r2bit.com/bitBook/)
+
+한국 R 사용자회
+
+N/A
+
+2022.11.
+
+저자: 이광춘 외
 
 ### [데이터 과학 프로그래밍](https://r2bit.com/book_programming/)
 
@@ -221,7 +264,7 @@ N/A
 
 ### 정보교육을 위한 파이썬 : 정보탐색을 통한 데이터 과학자로서의 여정
 
-CreateSpace Independent Publishing Platform
+CreateSpace Independent Publishing Platform, [아마존 웹사이트](https://www.amazon.com/Python-Informatics-Exploring-Information-Korean/dp/1517143144)
 
 N/A
 
