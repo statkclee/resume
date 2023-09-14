@@ -93,9 +93,9 @@ contact_info %>%
 
 - AI와 데이터 과학을 활용하여 비즈니스 혹은 사회 문제를 해결하여 가치를 창출하는 전문가.
 
-- (비)정형 비정형 데이터 공학, 데이터 과학, 기계학습, 딥러닝 
+- 챗GPT, (비)정형 비정형 데이터 공학, 데이터 과학, 기계학습, 딥러닝 
 
-- (Tidyverse) R, Bash, Python, LaTeX
+- Quarto, (Tidyverse) R, Bash, Python, LaTeX
 
 
 
@@ -103,17 +103,16 @@ contact_info %>%
 
 ## 이광춘 {#title}
 
-### 인공지능 기본기에 충실한 데이터 과학자
+### 챗GPT 데이터 과학자
 
-국내 1세대 [데이터 과학자](https://www.hankookilbo.com/News/Read/201701061377093602)로 데이터 사이언스 외길을 걸어왔습니다. 국내외 다양한 데이터 과학 경험(RStudio, Software Carpentry, AsiaR)과 서울 R 미트업과 한국 R 컨퍼런스, 그리고 연세대 데이터 과학 강의 경험과 
-현대차, GS 칼텍스, 웹젠, 삼정 KPMG, TCS 산업체 경험과 네트워크는 큰 자산이자 원동력입니다. 
+국내 1세대 [데이터 과학자](https://www.hankookilbo.com/News/Read/201701061377093602)로, 데이터 사이언스 분야에서의 장인이라 할 수 있습니다. 국내외에서 다양한 데이터 사이언스 커뮤니티(RStudio, Software Carpentry, AsiaR)와 네트워크를 바탕으로 [서울 R 미트업](https://r2bit.com/seoul-r/), [한국 R 컨퍼런스](https://use-r.kr/), 연세대 데이터 과학 강의 및 최근 건국대에 개설한 [챗GPT 데이터 사이언스 과정](https://r2bit.com/bitSlide/kunkuk_20230901.html)을 통해 한단계 성장했습니다. 
+또한, 현대차, GS 칼텍스, 웹젠, 삼정 KPMG, TCS와 같은 산업체에서 경험과 네트워크는 저의 큰 자산이자 원동력으로, 특히 삼정 KPMG에서 AI 조직(Lighthouse)을 성공적으로 안착시켰으며 챗GPT 데이터 사이언스 내재화 프로젝트를 공익법인 한국 R 사용자회를 통해 착실히 이뤄냈습니다. 이러한 다양한 경험과 전문성을 바탕으로 데이터 과학을 통해 더욱 빛나는 성과를 만들어 내겠습니다.
 
 ## 학력 {data-icon="graduation-cap" data-concise="true"}
 
 ```{r education}
 position_data %>% print_section('education')
 ```
-
 
 ## 연구 경력 {data-icon="briefcase"}
 
@@ -129,21 +128,30 @@ position_data %>% print_section('industry')
 
 ## 강의 교육 {data-icon="chalkboard-teacher"}
 
-### 소프트웨어 카펜트리
+### 광명시 생성형 AI 연구회 교육
 
-[Software Carpentry 워크샵](http://statkclee.github.io/swcarpentry-version-5-3-new/)
+[챗GPT 데이터 사이언스](https://statkclee.github.io/kwangmyung/)
 
-대한민국 서울, 대전, 판교, 춘천
+대한민국 경기도 광명시 공무원
 
-2015 - 2018
+23년 8월 ~ 
 
-### R 미트업
 
-[데이터 과학, R 미트업 운영](https://tidyverse-korea.github.io/seoul-R/)
+### TCS/GS 칼텍스
+
+[프로젝트 기반 데이터 사이언스 교육](https://r2bit.com/curriculum/)
+
+대한민국 여수
+
+2022.12 - 2023.05
+
+### 서울 R 미트업 (교보그룹 후원)
+
+[데이터 과학, R 미트업 운영](https://r2bit.com/seoul-R/)
 
 대한민국 서울
 
-2018 - 현재
+2017 - 현재
 
 ### 한국 R 컨퍼런스
 
@@ -153,8 +161,38 @@ position_data %>% print_section('industry')
 
 2021 - 현재
 
+### 소프트웨어 카펜트리
+
+[Software Carpentry 워크샵](http://statkclee.github.io/swcarpentry-version-5-3-new/)
+
+대한민국 서울, 대전, 판교, 춘천
+
+2015 - 2023
+
 
 ## 책과 논문 {data-icon="file"}
+
+### 챗GPT 디지털 글쓰기 (출간예정)
+
+한국 R 사용자회, [오픈 전자책](https://r2bit.com/gpt-writing/)
+
+N/A
+
+2022.09.
+
+저자: 이광춘, 신종화
+
+
+### 챗GPT 유닉스 쉘: 생산성 자동화 도구
+
+한국 R 사용자회, [교보문고 POD](https://product.kyobobook.co.kr/detail/S000208801484)
+
+N/A
+
+2023.08.
+
+저자: 이광춘, 신종화
+
 
 ### [데이터 과학 프로그래밍](https://r2bit.com/book_programming/)
 
@@ -209,19 +247,9 @@ N/A
 
 저자: 이광춘 외
 
-### 문서 콘텐츠 제작 실무 (제작 예정)
-
-한국 R 사용자회
-
-N/A
-
-2022.07.
-
-저자: 이광춘 외
-
 ### 정보교육을 위한 파이썬 : 정보탐색을 통한 데이터 과학자로서의 여정
 
-CreateSpace Independent Publishing Platform
+CreateSpace Independent Publishing Platform, [아마존 웹사이트](https://www.amazon.com/Python-Informatics-Exploring-Information-Korean/dp/1517143144)
 
 N/A
 
